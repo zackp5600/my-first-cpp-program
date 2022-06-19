@@ -13,8 +13,8 @@ int main() {
     if (square_root == a){
 
       std::cout << "the square root is: " << number << "\n";
-      exit(1);
+      exit(1);// terminate program
     }
     }
-    std::cout << "there is no even square root for this number";
+    std::cout << "there is no even square root for this number"; //There is no even square root of the number
   }
